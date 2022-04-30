@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: straspool.eu
+Token: 8158f045900802b7e3b3d28f183d3fb8df7d105d22eab2095d3f173c71c90c74
