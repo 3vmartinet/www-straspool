@@ -2,63 +2,53 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
-const RESOURCES = {
-  "assets/AssetManifest.json": "87ec6f6c7e725e4ecfb40c8ad1bcceda",
+
+const RESOURCES = {"assets/AssetManifest.bin": "4a9c5078bb70ab888f4d3e68555e72dd",
+"assets/AssetManifest.json": "3b0617b07ed3c565c4bd473066f6d366",
+"assets/assets/affiliate_categories/ecouteurs.png": "a21a2f7f6e2a45f25cd74f06eb894313",
+"assets/assets/affiliate_categories/lunettes.png": "4e6cd73b97132b95ccc3dbf5ee6e6843",
+"assets/assets/affiliate_categories/maillots_femme.png": "5fe73d28dda486996b0c7f93c1d9f2f5",
+"assets/assets/affiliate_categories/maillots_homme.png": "7f886b425600c52c1520a1f6d6c4b7b1",
+"assets/assets/affiliate_categories/palmes.png": "3ddc12e654f64e6086a796770afcdd3d",
+"assets/assets/affiliate_categories/planches.png": "cb5beebf8a0ba98e436d6514c45ecfe5",
+"assets/assets/affiliate_categories/pull_buoys.png": "de6067af5acfc53853d92cdcc181c3a4",
+"assets/assets/affiliate_categories/sacs.png": "171a84a6c8d5323cb9a45a30b4ad48d7",
+"assets/assets/affiliate_categories/snorkels.png": "22a2bf490d9f56ab7fd0300411b64947",
 "assets/assets/google_fonts/Anton-Regular.ttf": "7777f7f3f519eaedd41b8b9a8cd2666e",
 "assets/assets/misc/app_store.png": "fea459ae270cc14fc7eeb41aca80cc98",
 "assets/assets/misc/hardt.jpg": "bc284157ee2fa33f1291d3ce46b7d703",
 "assets/assets/misc/open_data_logo.png": "1161c56e520760a9efe8846da150c667",
 "assets/assets/misc/play_store.png": "7bf5d76eed45ea0a79c31a4913ae80b3",
-"assets/FontManifest.json": "71a4a82de411f155107da3f8dac64ebd",
-"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "4e886d557ba928823e4b4354343667f6",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Bold.ttf": "a9c8e437146ef63fcd6fae7cf65ca859",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Regular.ttf": "7ec92adfa4fe03eb8e9bfb60813df1fa",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Fraktur-Bold.ttf": "46b41c4de7a936d099575185a94855c4",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Fraktur-Regular.ttf": "dede6f2c7dad4402fa205644391b3a94",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-Bold.ttf": "9eef86c1f9efa78ab93d41a0551948f7",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-BoldItalic.ttf": "e3c361ea8d1c215805439ce0941a1c8d",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-Italic.ttf": "ac3b1882325add4f148f05db8cafd401",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-Regular.ttf": "5a5766c715ee765aa1398997643f1589",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Math-BoldItalic.ttf": "946a26954ab7fbd7ea78df07795a6cbc",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Math-Italic.ttf": "a7732ecb5840a15be39e1eda377bc21d",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_SansSerif-Bold.ttf": "ad0a28f28f736cf4c121bcb0e719b88a",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_SansSerif-Italic.ttf": "d89b80e7bdd57d238eeaa80ed9a1013a",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_SansSerif-Regular.ttf": "b5f967ed9e4933f1c3165a12fe3436df",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Script-Regular.ttf": "55d2dcd4778875a53ff09320a85a5296",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size1-Regular.ttf": "1e6a3368d660edc3a2fbbe72edfeaa85",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size2-Regular.ttf": "959972785387fe35f7d47dbfb0385bc4",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size3-Regular.ttf": "e87212c26bb86c21eb028aba2ac53ec3",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size4-Regular.ttf": "85554307b465da7eb785fd3ce52ad282",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Typewriter-Regular.ttf": "87f56927f1ba726ce0591955c8b3b42d",
-"assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"assets/fonts/MaterialIcons-Regular.otf": "046d78886e6b195ba3c391d07ec52569",
+"assets/NOTICES": "4b44778194c7f1a3ef268d296f539e9a",
+"assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
+"canvaskit/canvaskit.js": "bbf39143dfd758d8d847453b120c8ebb",
+"canvaskit/canvaskit.wasm": "42df12e09ecc0d5a4a34a69d7ee44314",
+"canvaskit/chromium/canvaskit.js": "96ae916cd2d1b7320fff853ee22aebb0",
+"canvaskit/chromium/canvaskit.wasm": "be0e3b33510f5b7b0cc76cc4d3e50048",
+"canvaskit/skwasm.js": "95f16c6690f955a45b2317496983dbe9",
+"canvaskit/skwasm.wasm": "1a074e8452fe5e0d02b112e22cdcf455",
+"canvaskit/skwasm.worker.js": "51253d3321b11ddb8d73fa8aa87d3b15",
 "favicon.ico": "efebfb01710081679b621bfdebf4d645",
 "favicon.png": "efebfb01710081679b621bfdebf4d645",
-"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"flutter.js": "6b515e434cea20006b3ef1726d2c8894",
 "icons/Icon-192.png": "3c761eaa334a5eb48621d87424728f6d",
 "icons/Icon-512.png": "2ce7edb8deabaac799e9e7adaf1a8dee",
 "icons/Icon-maskable-192.png": "3c761eaa334a5eb48621d87424728f6d",
 "icons/Icon-maskable-512.png": "2ce7edb8deabaac799e9e7adaf1a8dee",
-"index.html": "c765be4d00654184d19f4e5a80d6580e",
-"/": "c765be4d00654184d19f4e5a80d6580e",
-"main.dart.js": "f649dd0d5ba090a4cbd28ba828db317e",
+"index.html": "46c36054fe55a73a04de3c238008cac5",
+"/": "46c36054fe55a73a04de3c238008cac5",
+"main.dart.js": "0fb532f72b0bebeb8564a0139504a783",
 "manifest.json": "becd0e6ff5ea62ceece67988a4424b81",
-"version.json": "0fd66ec4ea6ad825b6ba937aded1aa49"
-};
-
+"version.json": "bc1d7758daf419916ec18efd479ad0a3"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-  "main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
+
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -69,7 +59,6 @@ self.addEventListener("install", (event) => {
     })
   );
 });
-
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
@@ -91,6 +80,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -116,6 +107,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
@@ -126,7 +119,6 @@ self.addEventListener("activate", function(event) {
     }
   }());
 });
-
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
@@ -166,7 +158,6 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
@@ -179,7 +170,6 @@ self.addEventListener('message', (event) => {
     return;
   }
 });
-
 // Download offline will check the RESOURCES for all files not in the cache
 // and populate them.
 async function downloadOffline() {
@@ -200,7 +190,6 @@ async function downloadOffline() {
   }
   return contentCache.addAll(resources);
 }
-
 // Attempt to download the resource online before falling back to
 // the offline cache.
 function onlineFirst(event) {
