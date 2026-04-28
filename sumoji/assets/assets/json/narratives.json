@@ -1,0 +1,867 @@
+[
+  {
+    "type": "book",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling"
+  },
+  {
+    "type": "movie",
+    "title": "The Shawshank Redemption",
+    "author": "Frank Darabont"
+  },
+  {
+    "type": "video game",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "author": "Nintendo"
+  },
+  {
+    "type": "video game",
+    "title": "Super Mario Bros.",
+    "author": "Nintendo"
+  },
+  {
+    "type": "video game",
+    "title": "Minecraft",
+    "author": "Mojang"
+  },
+  {
+    "type": "video game",
+    "title": "Tetris",
+    "author": "Alexey Pajitnov"
+  },
+  {
+    "type": "video game",
+    "title": "Grand Theft Auto V",
+    "author": "Rockstar Games"
+  },
+  {
+    "type": "video game",
+    "title": "Fortnite",
+    "author": "Epic Games"
+  },
+  {
+    "type": "video game",
+    "title": "Call of Duty: Modern Warfare",
+    "author": "Infinity Ward"
+  },
+  {
+    "type": "video game",
+    "title": "The Elder Scrolls V: Skyrim",
+    "author": "Bethesda Game Studios"
+  },
+  {
+    "type": "video game",
+    "title": "Pac-Man",
+    "author": "Namco"
+  },
+  {
+    "type": "video game",
+    "title": "Pokémon Red and Blue",
+    "author": "Game Freak"
+  },
+  {
+    "type": "video game",
+    "title": "Half-Life 2",
+    "author": "Valve"
+  },
+  {
+    "type": "video game",
+    "title": "The Witcher 3: Wild Hunt",
+    "author": "CD Projekt Red"
+  },
+  {
+    "type": "video game",
+    "title": "League of Legends",
+    "author": "Riot Games"
+  },
+  {
+    "type": "video game",
+    "title": "World of Warcraft",
+    "author": "Blizzard Entertainment"
+  },
+  {
+    "type": "video game",
+    "title": "Super Mario 64",
+    "author": "Nintendo"
+  },
+  {
+    "type": "video game",
+    "title": "Red Dead Redemption 2",
+    "author": "Rockstar Games"
+  },
+  {
+    "type": "video game",
+    "title": "Dark Souls",
+    "author": "FromSoftware"
+  },
+  {
+    "type": "video game",
+    "title": "Overwatch",
+    "author": "Blizzard Entertainment"
+  },
+  {
+    "type": "video game",
+    "title": "The Last of Us",
+    "author": "Naughty Dog"
+  },
+  {
+    "type": "video game",
+    "title": "Street Fighter II",
+    "author": "Capcom"
+  },
+  {
+    "type": "video game",
+    "title": "Resident Evil 4",
+    "author": "Capcom"
+  },
+  {
+    "type": "video game",
+    "title": "Metal Gear Solid",
+    "author": "Konami"
+  },
+  {
+    "type": "video game",
+    "title": "Halo: Combat Evolved",
+    "author": "Bungie"
+  },
+  {
+    "type": "video game",
+    "title": "Doom",
+    "author": "id Software"
+  },
+  {
+    "type": "video game",
+    "title": "Final Fantasy VII",
+    "author": "Square"
+  },
+  {
+    "type": "video game",
+    "title": "Castlevania: Symphony of the Night",
+    "author": "Konami"
+  },
+  {
+    "type": "video game",
+    "title": "Super Smash Bros. Ultimate",
+    "author": "Nintendo"
+  },
+  {
+    "type": "video game",
+    "title": "Counter-Strike: Global Offensive",
+    "author": "Valve"
+  },
+  {
+    "type": "video game",
+    "title": "Animal Crossing: New Horizons",
+    "author": "Nintendo"
+  },
+  {
+    "type": "video game",
+    "title": "Among Us",
+    "author": "Innersloth"
+  },
+  {
+    "type": "video game",
+    "title": "The Sims",
+    "author": "Maxis"
+  },
+  {
+    "type": "video game",
+    "title": "Portal 2",
+    "author": "Valve"
+  },
+  {
+    "type": "video game",
+    "title": "Cyberpunk 2077",
+    "author": "CD Projekt Red"
+  },
+  {
+    "type": "video game",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "author": "Nintendo"
+  },
+  {
+    "type": "video game",
+    "title": "Super Metroid",
+    "author": "Nintendo"
+  },
+  {
+    "type": "video game",
+    "title": "Chrono Trigger",
+    "author": "Square"
+  },
+  {
+    "type": "video game",
+    "title": "FIFA",
+    "author": "EA Sports"
+  },
+  {
+    "type": "video game",
+    "title": "Rocket League",
+    "author": "Psyonix"
+  },
+  {
+    "type": "video game",
+    "title": "Assassin's Creed II",
+    "author": "Ubisoft"
+  },
+  {
+    "type": "video game",
+    "title": "God of War",
+    "author": "Santa Monica Studio"
+  },
+  {
+    "type": "video game",
+    "title": "Hades",
+    "author": "Supergiant Games"
+  },
+  {
+    "type": "video game",
+    "title": "Persona 5",
+    "author": "Atlus"
+  },
+  {
+    "type": "video game",
+    "title": "StarCraft",
+    "author": "Blizzard Entertainment"
+  },
+  {
+    "type": "video game",
+    "title": "Diablo II",
+    "author": "Blizzard Entertainment"
+  },
+  {
+    "type": "video game",
+    "title": "Battlefield 1942",
+    "author": "DICE"
+  },
+  {
+    "type": "video game",
+    "title": "Silent Hill 2",
+    "author": "Konami"
+  },
+  {
+    "type": "video game",
+    "title": "Destiny 2",
+    "author": "Bungie"
+  },
+  {
+    "type": "video game",
+    "title": "Fallout 3",
+    "author": "Bethesda Game Studios"
+  },
+  {
+    "type": "video game",
+    "title": "Uncharted 2: Among Thieves",
+    "author": "Naughty Dog"
+  },
+  {
+    "type": "video game",
+    "title": "XCOM: Enemy Unknown",
+    "author": "Firaxis Games"
+  },
+  {
+    "type": "video game",
+    "title": "The Stanley Parable",
+    "author": "Galactic Cafe"
+  },
+  {
+    "type": "video game",
+    "title": "Cuphead",
+    "author": "Studio MDHR"
+  },
+  {
+    "type": "video game",
+    "title": "Celeste",
+    "author": "Maddy Makes Games"
+  },
+  {
+    "type": "video game",
+    "title": "Mass Effect 2",
+    "author": "BioWare"
+  },
+  {
+    "type": "video game",
+    "title": "BioShock",
+    "author": "2K Games"
+  },
+  {
+    "type": "video game",
+    "title": "Tom Clancy's Rainbow Six Siege",
+    "author": "Ubisoft"
+  },
+  {
+    "type": "video game",
+    "title": "Sekiro: Shadows Die Twice",
+    "author": "FromSoftware"
+  },
+  {
+    "type": "video game",
+    "title": "Mortal Kombat",
+    "author": "Midway Games"
+  },
+  {
+    "type": "video game",
+    "title": "Donkey Kong",
+    "author": "Nintendo"
+  },
+  {
+    "type": "myth",
+    "title": "The Odyssey",
+    "author": "Homer"
+  },
+  {
+    "type": "book",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee"
+  },
+  {
+    "type": "movie",
+    "title": "The Godfather",
+    "author": "Francis Ford Coppola"
+  },
+  {
+    "type": "book",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: Episode IV – A New Hope",
+    "author": "George Lucas"
+  },
+  {
+    "type": "book",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen"
+  },
+  {
+    "type": "movie",
+    "title": "The Dark Knight",
+    "author": "Christopher Nolan"
+  },
+  {
+    "type": "book",
+    "title": "1984",
+    "author": "George Orwell"
+  },
+  {
+    "type": "movie",
+    "title": "Pulp Fiction",
+    "author": "Quentin Tarantino"
+  },
+  {
+    "type": "book",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger"
+  },
+  {
+    "type": "movie",
+    "title": "The Matrix",
+    "author": "Lana Wachowski, Lilly Wachowski"
+  },
+  {
+    "type": "book",
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "type": "movie",
+    "title": "Forrest Gump",
+    "author": "Robert Zemeckis"
+  },
+  {
+    "type": "book",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "type": "movie",
+    "title": "Inception",
+    "author": "Christopher Nolan"
+  },
+  {
+    "type": "book",
+    "title": "And Then There Were None",
+    "author": "Agatha Christie"
+  },
+  {
+    "type": "movie",
+    "title": "Fight Club",
+    "author": "David Fincher"
+  },
+  {
+    "type": "book",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald"
+  },
+  {
+    "type": "movie",
+    "title": "Spirited Away",
+    "author": "Hayao Miyazaki"
+  },
+  {
+    "type": "book",
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "type": "movie",
+    "title": "The Silence of the Lambs",
+    "author": "Jonathan Demme"
+  },
+  {
+    "type": "book",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams"
+  },
+  {
+    "type": "movie",
+    "title": "Goodfellas",
+    "author": "Martin Scorsese"
+  },
+  {
+    "type": "book",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho"
+  },
+  {
+    "type": "movie",
+    "title": "Schindler's List",
+    "author": "Steven Spielberg"
+  },
+  {
+    "type": "book",
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini"
+  },
+  {
+    "type": "movie",
+    "title": "Parasite",
+    "author": "Bong Joon-ho"
+  },
+  {
+    "type": "book",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn"
+  },
+  {
+    "type": "movie",
+    "title": "The Lord of the Rings: The Return of the King",
+    "author": "Peter Jackson"
+  },
+  {
+    "type": "book",
+    "title": "The Book Thief",
+    "author": "Markus Zusak"
+  },
+  {
+    "type": "movie",
+    "title": "Titanic",
+    "author": "James Cameron"
+  },
+  {
+    "type": "book",
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown"
+  },
+  {
+    "type": "movie",
+    "title": "Avengers: Endgame",
+    "author": "Anthony Russo, Joe Russo"
+  },
+  {
+    "type": "book",
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson"
+  },
+  {
+    "type": "movie",
+    "title": "The Lion King",
+    "author": "Roger Allers, Rob Minkoff"
+  },
+  {
+    "type": "book",
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins"
+  },
+  {
+    "type": "movie",
+    "title": "Back to the Future",
+    "author": "Robert Zemeckis"
+  },
+  {
+    "type": "book",
+    "title": "The Name of the Rose",
+    "author": "Umberto Eco"
+  },
+  {
+    "type": "movie",
+    "title": "Saving Private Ryan",
+    "author": "Steven Spielberg"
+  },
+  {
+    "type": "book",
+    "title": "The Time Traveler's Wife",
+    "author": "Audrey Niffenegger"
+  },
+  {
+    "type": "movie",
+    "title": "The Green Mile",
+    "author": "Frank Darabont"
+  },
+  {
+    "type": "book",
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins"
+  },
+  {
+    "type": "movie",
+    "title": "Interstellar",
+    "author": "Christopher Nolan"
+  },
+  {
+    "type": "book",
+    "title": "The Help",
+    "author": "Kathryn Stockett"
+  },
+  {
+    "type": "movie",
+    "title": "The Departed",
+    "author": "Martin Scorsese"
+  },
+  {
+    "type": "book",
+    "title": "Life of Pi",
+    "author": "Yann Martel"
+  },
+  {
+    "type": "movie",
+    "title": "The Social Network",
+    "author": "David Fincher"
+  },
+  {
+    "type": "book",
+    "title": "The Curious Incident of the Dog in the Night-Time",
+    "author": "Mark Haddon"
+  },
+  {
+    "type": "movie",
+    "title": "Django Unchained",
+    "author": "Quentin Tarantino"
+  },
+  {
+    "type": "book",
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern"
+  },
+  {
+    "type": "movie",
+    "title": "La La Land",
+    "author": "Damien Chazelle"
+  },
+  {
+    "type": "book",
+    "title": "The Martian",
+    "author": "Andy Weir"
+  },
+  {
+    "type": "movie",
+    "title": "Mad Max: Fury Road",
+    "author": "George Miller"
+  },
+  {
+    "type": "book",
+    "title": "The Fault in Our Stars",
+    "author": "John Green"
+  },
+  {
+    "type": "movie",
+    "title": "Moonlight",
+    "author": "Barry Jenkins"
+  },
+  {
+    "type": "book",
+    "title": "Ready Player One",
+    "author": "Ernest Cline"
+  },
+  {
+    "type": "movie",
+    "title": "Get Out",
+    "author": "Jordan Peele"
+  },
+  {
+    "type": "book",
+    "title": "The Book of Mormon",
+    "author": "Joseph Smith"
+  },
+  {
+    "type": "movie",
+    "title": "Black Panther",
+    "author": "Ryan Coogler"
+  },
+  {
+    "type": "book",
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood"
+  },
+  {
+    "type": "movie",
+    "title": "Arrival",
+    "author": "Denis Villeneuve"
+  },
+  {
+    "type": "book",
+    "title": "The Secret History",
+    "author": "Donna Tartt"
+  },
+  {
+    "type": "movie",
+    "title": "Blade Runner 2049",
+    "author": "Denis Villeneuve"
+  },
+  {
+    "type": "book",
+    "title": "Eleanor Oliphant Is Completely Fine",
+    "author": "Gail Honeyman"
+  },
+  {
+    "type": "movie",
+    "title": "Roma",
+    "author": "Alfonso Cuarón"
+  },
+  {
+    "type": "book",
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens"
+  },
+  {
+    "type": "movie",
+    "title": "1917",
+    "author": "Sam Mendes"
+  },
+  {
+    "type": "book",
+    "title": "Little Fires Everywhere",
+    "author": "Celeste Ng"
+  },
+  {
+    "type": "movie",
+    "title": "Joker",
+    "author": "Todd Phillips"
+  },
+  {
+    "type": "book",
+    "title": "Circe",
+    "author": "Madeline Miller"
+  },
+  {
+    "type": "movie",
+    "title": "Dune",
+    "author": "Denis Villeneuve"
+  },
+  {
+    "type": "book",
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides"
+  },
+  {
+    "type": "movie",
+    "title": "The Batman",
+    "author": "Matt Reeves"
+  },
+  {
+    "type": "book",
+    "title": "Daisy Jones & The Six",
+    "author": "Taylor Jenkins Reid"
+  },
+  {
+    "type": "movie",
+    "title": "Top Gun: Maverick",
+    "author": "Joseph Kosinski"
+  },
+  {
+    "type": "book",
+    "title": "It Ends with Us",
+    "author": "Colleen Hoover"
+  },
+  {
+    "type": "movie",
+    "title": "Everything Everywhere All at Once",
+    "author": "Daniel Kwan, Daniel Scheinert"
+  },
+  {
+    "type": "book",
+    "title": "The House in the Cerulean Sea",
+    "author": "T.J. Klune"
+  },
+  {
+    "type": "movie",
+    "title": "Spider-Man: No Way Home",
+    "author": "Jon Watts"
+  },
+  {
+    "type": "book",
+    "title": "Project Hail Mary",
+    "author": "Andy Weir"
+  },
+  {
+    "type": "movie",
+    "title": "The Northman",
+    "author": "Robert Eggers"
+  },
+  {
+    "type": "book",
+    "title": "Mexican Gothic",
+    "author": "Silvia Moreno-Garcia"
+  },
+  {
+    "type": "movie",
+    "title": "RRR",
+    "author": "S.S. Rajamouli"
+  },
+  {
+    "type": "book",
+    "title": "The Midnight Library",
+    "author": "Matt Haig"
+  },
+  {
+    "type": "movie",
+    "title": "Avatar: The Way of Water",
+    "author": "James Cameron"
+  },
+  {
+    "type": "book",
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller"
+  },
+  {
+    "type": "movie",
+    "title": "Elvis",
+    "author": "Baz Luhrmann"
+  },
+  {
+    "type": "book",
+    "title": "The Invisible Life of Addie LaRue",
+    "author": "V.E. Schwab"
+  },
+  {
+    "type": "movie",
+    "title": "The Banshees of Inisherin",
+    "author": "Martin McDonagh"
+  },
+  {
+    "type": "movie",
+    "title": "Tár",
+    "author": "Todd Field"
+  },
+  {
+    "type": "book",
+    "title": "The Vanishing Half",
+    "author": "Brit Bennett"
+  },
+  {
+    "type": "book",
+    "title": "The Institute",
+    "author": "Stephen King"
+  },
+  {
+    "type": "movie",
+    "title": "The Fabelmans",
+    "author": "Steven Spielberg"
+  },
+  {
+    "type": "book",
+    "title": "The Guest List",
+    "author": "Lucy Foley"
+  },
+  {
+    "type": "movie",
+    "title": "Triangle of Sadness",
+    "author": "Ruben Östlund"
+  },
+  {
+    "type": "book",
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid"
+  },
+  {
+    "type": "movie",
+    "title": "Aftersun",
+    "author": "Charlotte Wells"
+  },
+  {
+    "type": "book",
+    "title": "The Lincoln Highway",
+    "author": "Amor Towles"
+  },
+  {
+    "type": "movie",
+    "title": "Guillermo del Toro's Pinocchio",
+    "author": "Guillermo del Toro"
+  },
+  {
+    "type": "book",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin"
+  },
+  {
+    "type": "movie",
+    "title": "The Whale",
+    "author": "Darren Aronofsky"
+  },
+  {
+    "type": "book",
+    "title": "Lessons in Chemistry",
+    "author": "Bonnie Garmus"
+  },
+  {
+    "type": "movie",
+    "title": "Women Talking",
+    "author": "Sarah Polley"
+  },
+  {
+    "type": "book",
+    "title": "Remarkably Bright Creatures",
+    "author": "Shelby Van Pelt"
+  },
+  {
+    "type": "book",
+    "title": "Demon Copperhead",
+    "author": "Barbara Kingsolver"
+  },
+  {
+    "type": "movie",
+    "title": "Empire of Light",
+    "author": "Sam Mendes"
+  },
+  {
+    "type": "book",
+    "title": "The House in the Pines",
+    "author": "Ana Reyes"
+  },
+  {
+    "type": "movie",
+    "title": "Babylon",
+    "author": "Damien Chazelle"
+  },
+  {
+    "type": "book",
+    "title": "The Maid",
+    "author": "Nita Prose"
+  },
+  {
+    "type": "book",
+    "title": "It Starts with Us",
+    "author": "Colleen Hoover"
+  },
+  {
+    "type": "book",
+    "title": "The Kaiju Preservation Society",
+    "author": "John Scalzi"
+  },
+  {
+    "type": "book",
+    "title": "The Paris Apartment",
+    "author": "Lucy Foley"
+  }
+]
