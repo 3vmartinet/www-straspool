@@ -80550,7 +80550,7 @@ A.YM.prototype={
 I(a){return B.a2o}}
 A.E0.prototype={
 I(a){var s=null,r=A.es(a)===B.aF,q=r?B.C:B.ah,p=A.iB(20),o=t.p
-p=A.c([A.aDN(p,A.aRp("app_icons/sumoji_120.png",s,r?64:80,s)),B.bq,new A.a2P(s),B.bq,new A.YO(this.c,s)],o)
+p=A.c([A.aDN(p,A.aRp("assets/app_icons/sumoji_120.png",s,r?64:80,s)),B.bq,new A.a2P(s),B.bq,new A.YO(this.c,s)],o)
 if(!r)B.b.J(p,A.c([B.eh,B.ly],o))
 return A.cz(p,q,B.x,B.aD,0)}}
 A.a2P.prototype={
