@@ -15,7 +15,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   
-  <base href="/">
+  <base href="/sumoji/">
 -->
 
   <meta charset="UTF-8">
@@ -33,9 +33,115 @@
 
   <title>SUMOJI</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #FFF9C4;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #FFFDE7 0%, #FFF9C4 100%);
+      z-index: 9999;
+      transition: opacity 0.5s ease-out;
+    }
+
+    .loader-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    .app-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 28px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      animation: pulse 2s infinite ease-in-out;
+      object-fit: cover;
+    }
+
+    .app-title {
+      margin-top: 32px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 900;
+      font-size: 52px;
+      letter-spacing: 3px;
+      color: #1A1A2E;
+      text-transform: uppercase;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.08); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.9; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
 </head>
 
 <body>
+  <div id="loading">
+    <div class="loader-content">
+      <img class="app-icon" src="favicon.png" alt="SUMOJI Logo">
+      <div class="app-title">SUMOJI</div>
+    </div>
+  </div>
+  <script>
+    window.addEventListener('load', function() {
+      var checkFlutter = setInterval(function() {
+        if (window._flutter && window._flutter.loader) {
+          clearInterval(checkFlutter);
+          
+          var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+              if (mutation.addedNodes.length) {
+                for (var i = 0; i < mutation.addedNodes.length; i++) {
+                  var node = mutation.addedNodes[i];
+                  if (node.tagName === 'FLUTTER-VIEW' || node.nodeName === 'FLUTTER-VIEW') {
+                    observer.disconnect();
+                    hideLoading();
+                    break;
+                  }
+                }
+              }
+            });
+          });
+          observer.observe(document.body, { childList: true });
+        }
+      }, 100);
+
+      function hideLoading() {
+        var loading = document.getElementById('loading');
+        if (loading) {
+          loading.style.opacity = '0';
+          setTimeout(function() {
+            loading.remove();
+            document.body.style.overflow = 'auto';
+          }, 500);
+        }
+      }
+      setTimeout(hideLoading, 10000); 
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 
