@@ -85,15 +85,70 @@
       text-transform: uppercase;
     }
 
+    .loading-subtitle {
+      margin-top: 12px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: #1A1A2E;
+      opacity: 0.7;
+      letter-spacing: 1px;
+    }
+
+    .dot {
+      display: inline-block;
+      animation: dotPulse 1.5s infinite;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes dotPulse {
+
+      0%,
+      100% {
+        opacity: 0.3;
+        transform: translateY(0);
+      }
+
+      50% {
+        opacity: 1;
+        transform: translateY(-3px);
+      }
+    }
+
     @keyframes pulse {
-      0% { transform: scale(1); opacity: 0.9; }
-      50% { transform: scale(1.08); opacity: 1; }
-      100% { transform: scale(1); opacity: 0.9; }
+      0% {
+        transform: scale(1);
+        opacity: 0.9;
+      }
+
+      50% {
+        transform: scale(1.08);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 0.9;
+      }
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
@@ -103,16 +158,18 @@
     <div class="loader-content">
       <img class="app-icon" src="favicon.png" alt="SUMOJI Logo">
       <div class="app-title">SUMOJI</div>
+      <div class="loading-subtitle">Loading<span class="dot">.</span><span class="dot">.</span><span
+          class="dot">.</span></div>
     </div>
   </div>
   <script>
-    window.addEventListener('load', function() {
-      var checkFlutter = setInterval(function() {
+    window.addEventListener('load', function () {
+      var checkFlutter = setInterval(function () {
         if (window._flutter && window._flutter.loader) {
           clearInterval(checkFlutter);
-          
-          var observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
+
+          var observer = new MutationObserver(function (mutations) {
+            mutations.forEach(function (mutation) {
               if (mutation.addedNodes.length) {
                 for (var i = 0; i < mutation.addedNodes.length; i++) {
                   var node = mutation.addedNodes[i];
@@ -133,13 +190,13 @@
         var loading = document.getElementById('loading');
         if (loading) {
           loading.style.opacity = '0';
-          setTimeout(function() {
+          setTimeout(function () {
             loading.remove();
             document.body.style.overflow = 'auto';
           }, 500);
         }
       }
-      setTimeout(hideLoading, 10000); 
+      setTimeout(hideLoading, 10000);
     });
   </script>
   <script src="flutter_bootstrap.js" async></script>
